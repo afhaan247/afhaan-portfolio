@@ -16,6 +16,19 @@ function About() {
         <strong>React</strong>, <strong>HTML</strong>, <strong>CSS</strong>, and{" "}
         <strong>MySQL</strong>.
       </p>
+
+      {/* Education Section */}
+      <div style={{ marginTop: "32px", textAlign: "left", maxWidth: "520px" }}>
+        <h2 style={{ fontSize: "1.2rem", marginBottom: "8px" }}>Education</h2>
+
+        <p>
+          <strong>B.Tech in Information Technology</strong>
+          <br />
+          CAHCET, Anna University
+          <br />
+          <span style={{ color: "#6b7280" }}>Currently Studying</span>
+        </p>
+      </div>
     </PageWrapper>
   );
 }
