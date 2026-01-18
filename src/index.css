@@ -24,23 +24,43 @@ p {
 }
 
 /* ---------- ICON ROW ---------- */
+/* ---------- ICON ROW (HERO) ---------- */
+/* ---------- ICON ROW (HERO SECTION) ---------- */
 
 .icon-row {
   display: flex;
   justify-content: center;
-  gap: 22px;
-  margin-top: 26px;
-  font-size: 1.6rem;
+  gap: 24px;
+  margin-top: 30px;
+  font-size: 1.7rem;
 }
 
 .icon-row a {
-  color: #111827;
-  opacity: 0.75;
+  color: #ffffff;                 /* PURE WHITE */
+  opacity: 1;                     /* FULL VISIBILITY */
+  transition: all 0.25s ease;
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.6));
 }
 
 .icon-row a:hover {
-  color: #2563eb;
-  opacity: 1;
+  color: #60a5fa;                 /* Soft professional blue */
+  transform: translateY(-3px);
+}
+
+/* ---------- MOBILE ICON VISIBILITY ---------- */
+@media (max-width: 640px) {
+  .icon-row {
+    font-size: 2rem;              /* Bigger on mobile */
+    gap: 22px;
+  }
+}
+
+/* ---------- MOBILE ICON FIX ---------- */
+@media (max-width: 640px) {
+  .icon-row {
+    font-size: 1.8rem;      /* Bigger on mobile */
+    gap: 20px;
+  }
 }
 
 /* ---------- BUTTONS ---------- */

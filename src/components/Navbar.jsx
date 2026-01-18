@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+
 
 function Navbar() {
   return (
@@ -13,14 +13,7 @@ function Navbar() {
         <NavLink to="/contact" style={styles.link}>Contact</NavLink>
       </div>
 
-      <div style={styles.icons}>
-        <a href="https://github.com/yourusername" target="_blank" rel="noreferrer">
-          <FaGithub />
-        </a>
-        <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noreferrer">
-          <FaLinkedin />
-        </a>
-      </div>
+      
     </nav>
   );
 }
