@@ -39,9 +39,9 @@ function Home() {
           <FaLinkedin />
         </a>
 
-        {/* Instagram */}
+        {/* Instagram (FIXED) */}
         <a
-          href="https://www.instagram.com/afhaan247"
+          href="https://www.instagram.com/afhaannnn"
           target="_blank"
           rel="noreferrer"
           aria-label="Instagram"
