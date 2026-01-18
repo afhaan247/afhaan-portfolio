@@ -1,5 +1,12 @@
 import PageWrapper from "../components/PageWrapper";
-import { FaGithub, FaLinkedin, FaFilePdf } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaFilePdf,
+  FaWhatsapp,
+  FaInstagram,
+  FaPhoneAlt,
+} from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 function Home() {
@@ -30,6 +37,34 @@ function Home() {
           aria-label="LinkedIn"
         >
           <FaLinkedin />
+        </a>
+
+        {/* Instagram */}
+        <a
+          href="https://www.instagram.com/afhaan247"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Instagram"
+        >
+          <FaInstagram />
+        </a>
+
+        {/* WhatsApp */}
+        <a
+          href="https://wa.me/918925188760"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="WhatsApp"
+        >
+          <FaWhatsapp />
+        </a>
+
+        {/* Phone */}
+        <a
+          href="tel:+918925188760"
+          aria-label="Phone"
+        >
+          <FaPhoneAlt />
         </a>
 
         {/* Email */}
