@@ -7,25 +7,49 @@ function Home() {
     <PageWrapper>
       <h1 style={{ marginBottom: "6px" }}>Afhaan</h1>
 
-<p style={{ fontSize: "1rem" }}>
-  Frontend Developer • React
-</p>
+      <p style={{ fontSize: "1rem" }}>
+        Frontend Developer • React
+      </p>
 
-<div className="icon-row">
-  <a href="https://github.com/yourusername" target="_blank" rel="noreferrer">
-    <FaGithub />
-  </a>
-  <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noreferrer">
-    <FaLinkedin />
-  </a>
-  <a href="mailto:yourmail@gmail.com">
-    <MdEmail />
-  </a>
-  <a href="/resume.pdf" target="_blank" rel="noreferrer">
-    <FaFilePdf />
-  </a>
-</div>
+      <div className="icon-row">
+        {/* GitHub */}
+        <a
+          href="https://github.com/afhaan247"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="GitHub"
+        >
+          <FaGithub />
+        </a>
 
+        {/* LinkedIn */}
+        <a
+          href="https://www.linkedin.com/in/mohammed-afhaan-7561073a1"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="LinkedIn"
+        >
+          <FaLinkedin />
+        </a>
+
+        {/* Email */}
+        <a
+          href="mailto:afhaan247@gmail.com"
+          aria-label="Email"
+        >
+          <MdEmail />
+        </a>
+
+        {/* Resume */}
+        <a
+          href="/resume.pdf"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Resume"
+        >
+          <FaFilePdf />
+        </a>
+      </div>
     </PageWrapper>
   );
 }
