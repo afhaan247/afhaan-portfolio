@@ -22,7 +22,7 @@ function About() {
         <h2 style={{ fontSize: "1.2rem", marginBottom: "8px" }}>Education</h2>
 
         <p>
-          <strong>B.Tech in Information Technology</strong>
+          <strong>Information Technology in Btech</strong>
           <br />
           CAHCET, Anna University
           <br />
