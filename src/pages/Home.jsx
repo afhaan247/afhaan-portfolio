@@ -18,25 +18,6 @@ function Home() {
           textAlign: "center",
         }}
       >
-        {/* Resume Button */}
-        <a
-          href="/resume.pdf"
-          target="_blank"
-          rel="noreferrer"
-          style={{
-            alignSelf: "flex-end",
-            marginBottom: "30px",
-            padding: "8px 16px",
-            borderRadius: "8px",
-            border: "1px solid rgba(255,255,255,0.4)",
-            color: "#ffffff",
-            fontSize: "0.85rem",
-            textDecoration: "none",
-          }}
-        >
-          View Resume
-        </a>
-
         {/* Name */}
         <h1 style={{ marginBottom: "6px" }}>Afhaan</h1>
 
