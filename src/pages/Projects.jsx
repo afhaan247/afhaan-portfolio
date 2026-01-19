@@ -10,7 +10,8 @@ function Projects() {
 
       <div style={gridStyle}>
         {/* Project 1 */}
-        <div style={cardStyle}>
+        <div className="project-card" style={cardStyle}>
+
           <h3 style={titleStyle}>Study App</h3>
           <p style={descStyle}>
             A study management application designed to help students organize
@@ -22,7 +23,8 @@ function Projects() {
         </div>
 
         {/* Project 2 */}
-        <div style={cardStyle}>
+        <div className="project-card" style={cardStyle}>
+
           <h3 style={titleStyle}>Personal Portfolio</h3>
           <p style={descStyle}>
             A responsive and professional portfolio website to showcase my
@@ -34,7 +36,8 @@ function Projects() {
         </div>
 
         {/* Project 3 */}
-        <div style={cardStyle}>
+        <div className="project-card" style={cardStyle}>
+
           <h3 style={titleStyle}>Todo Management App</h3>
           <p style={descStyle}>
             A simple task management app that allows users to add, update,
@@ -46,7 +49,8 @@ function Projects() {
         </div>
 
         {/* Project 4 */}
-        <div style={cardStyle}>
+        <div className="project-card" style={cardStyle}>
+
           <h3 style={titleStyle}>Notes App</h3>
           <p style={descStyle}>
             A lightweight notes application for creating, editing, and managing
@@ -79,7 +83,10 @@ const cardStyle = {
   display: "flex",
   flexDirection: "column",
   justifyContent: "space-between",
+  transition: "transform 0.25s ease, box-shadow 0.25s ease",
+  cursor: "pointer",
 };
+
 
 const titleStyle = {
   fontSize: "1.15rem",
