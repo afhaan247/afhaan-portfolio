@@ -211,4 +211,39 @@ nav svg:hover {
   }
 }
 
+/* ---------- MOBILE HERO FIX ---------- */
+@media (max-width: 768px) {
+  .hero {
+    min-height: calc(100vh - 70px);
+    padding: 60px 20px 80px;
+    justify-content: center;
+  }
+
+  .hero h1 {
+    font-size: 2.1rem;
+  }
+
+  .hero-line {
+    margin: 12px auto 10px;
+  }
+
+  .hero p {
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+  }
+
+  .icon-row {
+    margin-top: 28px;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .icon-row a {
+    padding: 16px;
+    font-size: 1.1rem;
+  }
+}
 

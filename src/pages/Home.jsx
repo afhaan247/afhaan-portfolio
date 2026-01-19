@@ -13,7 +13,8 @@ function Home() {
   return (
     <PageWrapper>
       {/* HERO SECTION */}
-      <div className="hero">
+      <div className="hero" style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center" }}>
+
         <h1 style={{ marginBottom: "6px" }}>Afhaan</h1>
 
         {/* Accent line */}
