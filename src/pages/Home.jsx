@@ -12,78 +12,84 @@ import { MdEmail } from "react-icons/md";
 function Home() {
   return (
     <PageWrapper>
-      <h1 style={{ marginBottom: "6px" }}>Afhaan</h1>
+      {/* HERO SECTION */}
+      <div className="hero">
+        <h1 style={{ marginBottom: "6px" }}>Afhaan</h1>
 
-      <p style={{ fontSize: "1rem" }}>
-        Frontend Developer • React
-      </p>
+        {/* Accent line */}
+        <div className="hero-line"></div>
 
-      <div className="icon-row">
-        {/* GitHub */}
-        <a
-          href="https://github.com/afhaan247"
-          target="_blank"
-          rel="noreferrer"
-          aria-label="GitHub"
-        >
-          <FaGithub />
-        </a>
+        {/* Role */}
+        <p style={{ fontSize: "1rem" }}>
+          Frontend Developer • React
+        </p>
 
-        {/* LinkedIn */}
-        <a
-          href="https://www.linkedin.com/in/mohammed-afhaan-7561073a1"
-          target="_blank"
-          rel="noreferrer"
-          aria-label="LinkedIn"
-        >
-          <FaLinkedin />
-        </a>
+        {/* One-line intro */}
+        <p style={{ marginTop: "10px", fontSize: "0.95rem", opacity: 0.85 }}>
+          I build clean, responsive web applications with a focus on user experience.
+        </p>
 
-        {/* Instagram (FIXED) */}
-        <a
-          href="https://www.instagram.com/afhaannnn"
-          target="_blank"
-          rel="noreferrer"
-          aria-label="Instagram"
-        >
-          <FaInstagram />
-        </a>
+        {/* Social / Contact Icons */}
+        <div className="icon-row">
+          <a
+            href="https://github.com/afhaan247"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="GitHub"
+          >
+            <FaGithub />
+          </a>
 
-        {/* WhatsApp */}
-        <a
-          href="https://wa.me/918925188760"
-          target="_blank"
-          rel="noreferrer"
-          aria-label="WhatsApp"
-        >
-          <FaWhatsapp />
-        </a>
+          <a
+            href="https://www.linkedin.com/in/mohammed-afhaan-7561073a1"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="LinkedIn"
+          >
+            <FaLinkedin />
+          </a>
 
-        {/* Phone */}
-        <a
-          href="tel:+918925188760"
-          aria-label="Phone"
-        >
-          <FaPhoneAlt />
-        </a>
+          <a
+            href="https://www.instagram.com/afhaannnn"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Instagram"
+          >
+            <FaInstagram />
+          </a>
 
-        {/* Email */}
-        <a
-          href="mailto:afhaan247@gmail.com"
-          aria-label="Email"
-        >
-          <MdEmail />
-        </a>
+          <a
+            href="https://wa.me/918925188760"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="WhatsApp"
+          >
+            <FaWhatsapp />
+          </a>
 
-        {/* Resume */}
-        <a
-          href="/resume.pdf"
-          target="_blank"
-          rel="noreferrer"
-          aria-label="Resume"
-        >
-          <FaFilePdf />
-        </a>
+          <a
+            href="tel:+918925188760"
+            aria-label="Phone"
+          >
+            <FaPhoneAlt />
+          </a>
+
+          <a
+            href="mailto:afhaan247@gmail.com"
+            aria-label="Email"
+          >
+            <MdEmail />
+          </a>
+
+          <a
+            href="/resume.pdf"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Resume"
+          >
+            <FaFilePdf />
+          </a>
+        </div>
       </div>
     </PageWrapper>
   );

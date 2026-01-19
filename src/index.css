@@ -8,6 +8,24 @@ body {
   background: #f3f4f6;
   color: #111827;
 }
+/* ---------- HERO SECTION ---------- */
+.hero {
+  background: radial-gradient(
+    circle at top,
+    #1f2933 0%,
+    #0b0b0b 60%
+  );
+  width: 100%;
+}
+.hero-line {
+  width: 60px;
+  height: 3px;
+  background: #60a5fa;
+  margin: 14px auto;
+  border-radius: 4px;
+}
+
+
 
 /* ---------- TYPOGRAPHY ---------- */
 
@@ -46,6 +64,23 @@ p {
   color: #60a5fa;                 /* Soft professional blue */
   transform: translateY(-3px);
 }
+.icon-row a {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 50%;
+  padding: 14px;
+  transition: all 0.25s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-row a:hover {
+  background: #60a5fa;
+  color: #0b0b0b;
+  transform: translateY(-3px);
+}
+
 
 /* ---------- MOBILE ICON VISIBILITY ---------- */
 @media (max-width: 640px) {
@@ -160,3 +195,20 @@ nav svg:hover {
   transform: translateY(-8px);
   box-shadow: 0 18px 45px rgba(0, 0, 0, 0.15);
 }
+@media (max-width: 640px) {
+  .hero {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .icon-row {
+    margin-top: 20px;
+    gap: 18px;
+  }
+}
+
+
