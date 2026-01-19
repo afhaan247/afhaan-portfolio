@@ -19,21 +19,16 @@ function Navbar() {
           display: "flex",
           alignItems: "center",
           justifyContent: "space-between",
+          fontSize: "0.95rem",
         }}
       >
-        {/* Logo */}
-        <div style={{ fontWeight: 600, fontSize: "1.1rem" }}>
+        {/* Name (same style as links) */}
+        <NavLink to="/" style={linkStyle}>
           Afhaan
-        </div>
+        </NavLink>
 
-        {/* Links */}
-        <div
-          style={{
-            display: "flex",
-            gap: "24px",
-            fontSize: "0.95rem",
-          }}
-        >
+        {/* Navigation links */}
+        <div style={{ display: "flex", gap: "24px" }}>
           <NavLink to="/" style={linkStyle}>
             Home
           </NavLink>
