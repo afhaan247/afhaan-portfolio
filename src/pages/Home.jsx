@@ -2,22 +2,45 @@ import PageWrapper from "../components/PageWrapper";
 import {
   FaGithub,
   FaLinkedin,
-  FaFilePdf,
-  FaWhatsapp,
   FaInstagram,
-  FaPhoneAlt,
 } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 function Home() {
   return (
     <PageWrapper>
-      {/* HERO SECTION */}
-      <div className="hero" style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center" }}>
+      <div
+        className="hero"
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          textAlign: "center",
+        }}
+      >
+        {/* Resume Button */}
+        <a
+          href="/resume.pdf"
+          target="_blank"
+          rel="noreferrer"
+          style={{
+            alignSelf: "flex-end",
+            marginBottom: "30px",
+            padding: "8px 16px",
+            borderRadius: "8px",
+            border: "1px solid rgba(255,255,255,0.4)",
+            color: "#ffffff",
+            fontSize: "0.85rem",
+            textDecoration: "none",
+          }}
+        >
+          View Resume
+        </a>
 
+        {/* Name */}
         <h1 style={{ marginBottom: "6px" }}>Afhaan</h1>
 
-        {/* Accent line */}
+        {/* Accent Line */}
         <div className="hero-line"></div>
 
         {/* Role */}
@@ -25,12 +48,12 @@ function Home() {
           Frontend Developer • React
         </p>
 
-        {/* One-line intro */}
+        {/* Intro */}
         <p style={{ marginTop: "10px", fontSize: "0.95rem", opacity: 0.85 }}>
           I build clean, responsive web applications with a focus on user experience.
         </p>
 
-        {/* Social / Contact Icons */}
+        {/* Icons */}
         <div className="icon-row">
           <a
             href="https://github.com/afhaan247"
@@ -60,35 +83,10 @@ function Home() {
           </a>
 
           <a
-            href="https://wa.me/918925188760"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="WhatsApp"
-          >
-            <FaWhatsapp />
-          </a>
-
-          <a
-            href="tel:+918925188760"
-            aria-label="Phone"
-          >
-            <FaPhoneAlt />
-          </a>
-
-          <a
             href="mailto:afhaan247@gmail.com"
             aria-label="Email"
           >
             <MdEmail />
-          </a>
-
-          <a
-            href="/resume.pdf"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Resume"
-          >
-            <FaFilePdf />
           </a>
         </div>
       </div>
